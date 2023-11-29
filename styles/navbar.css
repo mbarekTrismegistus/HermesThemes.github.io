@@ -1,0 +1,28 @@
+.navbar-brand{
+    color: #f5e0dc;
+}
+
+.navbar{
+    
+    width: 100%;
+    z-index: 2;
+}
+.nav-item{
+    color: #f5e0dc;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    font-size: 17px;
+}
+.nav-link{
+    color: #f5e0dc;
+}
+.nav-link:hover{
+    color: white;
+}
+.nav-item:hover{
+    background-color: transparent;
+    border: 1px solid var(--primary-color);
+    box-shadow: inset 0px 0px 30px var(--primary-color);
+    transition: all 0.3s;
+}

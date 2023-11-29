@@ -1,0 +1,128 @@
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 4;
+    top: 0;
+    right: 0;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-color: #11111b;
+    overflow-x: hidden;
+    transition: 0.5s;
+    
+}
+.sidenav a{
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.openBtn{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 3;
+}
+
+.menuBtn{
+    background: var(--primary-color);
+    background: linear-gradient(160deg, var(--primary-color) 40%, var(--secondary-color) 100%);
+    filter: drop-shadow(0px 0px 15px var(--primary-color));
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+   
+}
+
+
+
+
+
+.sideIconsActive{
+    background: var(--primary-color);
+    background: linear-gradient(160deg, var(--primary-color) 40%, var(--secondary-color) 100%);
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0px 0px 20px var(--primary-color),
+                 0px 0px 10px var(--primary-color);
+
+}
+.dot{
+    font-size: 45px;
+}
+
+
+
+/* side menu color changer styles ////////////////////////////////////////////////////////////////////// */
+
+
+.btnColor1{
+    background-color: rgb(230, 69, 83);
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.btnColor1:hover{
+    background-color: rgb(255, 0, 55);
+    scale: 1.2;
+    
+}
+
+.btnColor2{
+    background-color: rgb(30, 102, 245);
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.btnColor2:hover{
+    background-color: rgb(2, 62, 182);
+    scale: 1.2;
+    
+}
+
+.btnColor3{
+    background-color: rgb(254, 100, 11);
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.btnColor3:hover{
+    background-color: rgb(179, 65, 0);
+    scale: 1.2;
+    
+}
+
+.btnColor4{
+    background-color: rgb(210, 15, 57);
+    background: linear-gradient(160deg, rgb(210, 15, 57) 40%, rgb(136, 57, 239) 100%);
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.btnColor4:hover{
+    background-color: rgb(173, 0, 38);
+    scale: 1.2;
+    
+}
+
+.colorChanger{
+    background-color: #11111b;
+    padding: 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid var(--primary-color);
+    border-radius: 25px;
+    filter: drop-shadow(0px 0px 15px var(--primary-color));
+}

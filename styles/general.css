@@ -1,0 +1,250 @@
+:root{
+    --primary-color:rgb(210, 15, 57);
+    --shadow-color: rgb(210, 15, 57,0.4);
+    --secondary-color:rgb(173, 0, 38);
+    --svg-primary: rgb(223, 20, 64);
+    --svg-second: rgb(187, 12, 50);
+
+}
+
+
+   
+
+
+::-webkit-scrollbar{
+    background-color: black;
+    width: 8px;
+}
+
+
+   
+
+::-webkit-scrollbar-thumb {
+    background: var(--primary-color); 
+    border-radius: 4px;
+  }
+  
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--secondary-color); 
+  }
+
+
+  @font-face {
+    font-family: fontBold;
+    src: url(/public/StreetvertisingBoldpublic.ttf);
+  }
+  @font-face {
+    font-family: Bold;
+    src: url(/public/NEXT\ ART_Bold.otf);
+  }
+  @font-face {
+    font-family: fontRegular;
+    src: url(/public/LouisGeorgeCafe.ttf);
+    font-size: 29px;
+  }
+  
+
+html,body
+{
+    scroll-behavior: smooth;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+body{
+  
+    color: #f5e0dc;
+    background-color: #151515;
+    
+    
+    
+}
+
+p{
+    font-family: fontRegular;
+    font-size: 18px;
+    
+}
+h1{
+    letter-spacing: -4.9px!important;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+main{
+    margin-bottom: 10%;
+}
+
+.main{
+    
+    height: 100%;
+    height: 100vh;
+   
+}
+.show{
+    opacity: 0;
+    position: relative;
+    top: 150px;
+}
+
+.glow{
+    font-family: "bold";
+    font-size: 6vw;
+    color: white!important;
+    letter-spacing: 2px;
+    background: rgb(242,242,242);
+    background: linear-gradient(180deg, rgba(242,242,242,1) 0%, rgb(167, 167, 167) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.glowm{
+    
+    font-family: "bold";
+    font-size: 5vw;
+    color: white!important;
+    letter-spacing: 2px;
+    background: rgb(242,242,242);
+    background: linear-gradient(180deg, rgba(242,242,242,1) 0%, rgb(167, 167, 167) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.glows{
+    font-size: 25px;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.orbtn{
+    background-color: var(--primary-color);
+    width: 160px;
+    height: 60px;
+    border-radius: 50px;
+    border: 1px solid var(--primary-color);
+    
+    
+
+}
+.orbtn:hover{
+    background-color: transparent;
+    border: 1px solid var(--primary-color);
+    box-shadow: inset 0px 0px 30px var(--primary-color);
+}
+
+.contactBtn{
+    background-color: #151515;
+    width: 160px;
+    height: 60px;
+    border-radius: 50px;
+    border: 2px solid var(--primary-color);
+    box-shadow: 0px -3px 55px var(--shadow-color),
+                0px -3px 75px var(--shadow-color);
+    
+
+}
+.contactBtn:hover{
+    background: var(--primary-color);
+    background: linear-gradient(160deg, var(--primary-color) 40%, var(--secondary-color) 100%);
+    border: 0px solid var(--primary-color);
+}
+
+
+
+.listDot{
+    left: 50%;
+    backdrop-filter: blur(55px);
+    width: 37%;
+    transform: translate(-50%, 0%);
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    
+}
+
+
+spline-viewer{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: -2;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    
+
+    .timeline::before{
+        display: none;
+        
+    }
+    .timeline-content{
+        
+        width: 100%;
+        word-break: break-all;
+        
+    }
+
+
+
+
+
+
+    .timelineStart{
+        display: none;
+    }
+
+    .left{
+        opacity: 0;
+        left: 0!important;
+    
+
+    }
+    .left::before{
+        display: none;
+    }
+    .right::before{
+        display: none;
+    }
+    .right::after{
+        display: none;
+    }
+    .left::after{
+        display: none;
+    }
+
+    .right{
+        opacity: 0;
+        left: 0!important;
+        
+    }
+    .about .row{
+        margin: 0!important;
+        padding: 0!important;
+    }
+    .conInfo{
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 0;
+    }
+    .conInputs{
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 30px;
+    }
+    .listDot{
+        width: 65%;
+    }
+    .mouse{
+        display: none;
+    }
+}
+
+
+

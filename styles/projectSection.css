@@ -1,0 +1,34 @@
+
+.projects .card{
+    border: none;
+    background: rgb(31,31,31);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11.5px);
+    -webkit-backdrop-filter: blur(11.5px);
+}
+
+.projects .card img{
+    height: 400px;
+    object-fit: cover;
+    transition: all 500ms;
+    z-index: 2;
+    
+    
+}
+
+.projects .card-body{
+    background: rgba(31, 31, 31, 0.658);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(11.5px);
+    -webkit-backdrop-filter: blur(11.5px);
+}
+.projects .card button{
+    box-shadow: none;
+    border: 1px solid var(--primary-color);
+}
+
+.projects .card img:hover{
+    scale: 1.1;
+    
+
+}

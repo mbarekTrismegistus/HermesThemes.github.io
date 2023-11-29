@@ -1,0 +1,67 @@
+
+.contact{
+    margin:0;
+    padding:0;
+}
+
+
+.form{
+    width: 100%;
+    border-radius: 30px;
+   
+}
+.conInputs{
+    height: auto;
+    background-color: rgba(31, 31, 31, 0.658);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.conInfo{
+    position: relative;
+    background: linear-gradient(170deg, var(--primary-color) 40%, var(--secondary-color) 100%);
+    height: auto;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    display: inline-block;
+    word-break: break-all;
+    overflow: hidden;
+    
+}
+
+.conTitle{
+    height: 20%;
+}
+.infos{
+    position: relative;
+    padding-top: 15%;
+    padding-bottom: 30%;
+}
+#sw-js-blob-svg{
+    position: absolute;
+    bottom: -150px;
+    margin-top: 200px;
+    left: 40%;
+    display: inline;
+    width: 400px;
+    height: 400px;
+}
+.form-control{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid var(--primary-color);
+    border-radius: 0;
+    color: var(--primary-color)!important; 
+    
+
+}
+.form-control:focus{
+    background: transparent!important;
+    border: none;
+    border-bottom: 2px solid var(--primary-color);
+    border-radius: 0;
+    box-shadow: none!important;
+    filter: drop-shadow(0px 0px 25px var(--primary-color)) 
+            drop-shadow(0px 0px 25px var(--primary-color))!important;
+    color: var(--primary-color)!important;
+    
+}
